@@ -1,0 +1,44 @@
+﻿<Page x:Class="Bank_System_new.ApplyForLoans"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bank_System_new"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ApplyForLoans">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Opacity="0.3" ImageSource="images (1).jpg" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Label Content="Type of Loan" Grid.Column="1" HorizontalAlignment="Left" Margin="117,21,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF7CE853" FontSize="20" FontWeight="Bold" Width="162"/>
+        <Label Content="Amount of Loan" Grid.Column="1" HorizontalAlignment="Left" Margin="117,10,0,0" Grid.Row="2" VerticalAlignment="Top" Background="#FF7CE853" FontSize="20" FontWeight="Bold" Width="247"/>
+        <Label Content="Annual Income" Grid.Column="1" HorizontalAlignment="Left" Margin="117,15,0,0" Grid.Row="3" VerticalAlignment="Top" Background="#FF7CE853" FontSize="20" FontWeight="Bold" Width="247"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="479,21,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="248" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="479,12,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Rs." VerticalAlignment="Top" Width="248" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="479,15,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="248" FontSize="20"/>
+        <Label Content="Apply for Loans" Grid.Column="1" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Width="475" Foreground="#FF0FD72E" FontSize="40" FontWeight="Bold"/>
+        <Button Content="Back" Grid.Column="1" HorizontalAlignment="Left" Margin="646,4,0,0" Grid.Row="5" VerticalAlignment="Top" Width="81" Click="Button_Click" Background="#FF4366B6" Foreground="#FF0B0752" OpacityMask="#FF007BFF" FontSize="24" FontWeight="Bold" Height="56" RenderTransformOrigin="-0.119,1.62"/>
+        <Button Click="Button2_Click" x:Name="Button2" Content="Submit" Grid.Column="1" HorizontalAlignment="Left" Margin="452,0,0,0" Grid.Row="5" VerticalAlignment="Top" Width="118" Background="#FF4366B6" Foreground="#FF0B0752" OpacityMask="#FF007BFF" FontSize="24" FontWeight="Bold" Height="56" RenderTransformOrigin="1.783,0.546"/>
+        <Label Content="Type of Loan" Grid.Column="1" HorizontalAlignment="Left" Margin="117,21,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF7CE853" FontSize="20" FontWeight="Bold" Width="162"/>
+        <Label Content="Type of Loan" Grid.Column="1" HorizontalAlignment="Left" Margin="117,21,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FF7CE853" FontSize="20" FontWeight="Bold" Width="247"/>
+        <Label Content="Name Of the Applicant" Grid.Column="1" HorizontalAlignment="Left" Margin="117,13,0,0" Grid.Row="4" VerticalAlignment="Top" Background="#FF7CE853" FontSize="20" FontWeight="Bold" Width="247"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="479,13,0,0" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="248" FontSize="20"/>
+
+    </Grid>
+</Page>
